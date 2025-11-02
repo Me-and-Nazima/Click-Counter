@@ -1,1 +1,10 @@
-
+#Button {
+  background: #ed8f13;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 80px;
+  height: 80px;
+}
+#countertext {
+  font-family: 'DynaPuff', cursive;
+}
