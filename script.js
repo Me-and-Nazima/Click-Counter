@@ -1,8 +1,14 @@
-const button = document.getElementById("Button");
+const basebutton = document.getElementById("Button");
 const text = document.getElementById("countertext");
-let clicks = 0
-button.addEventListener("click", () => {
-  clicks++;
-  
+const button2 = document.getElementById("Level2Button");
+let clicks = 0;
+let level = 1;
+basebutton.addEventListener("click", () => {
+  clicks += level;
   text.textContent = clicks;
 });  
+button2.addEventListener("click", () => {
+  if (clicks >= 100) {
+    level += 1;
+  }
+}
