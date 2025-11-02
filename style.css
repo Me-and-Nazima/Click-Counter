@@ -16,7 +16,12 @@
   left: 50%;
   top: 10%;
   transform: translate(-50%, -50%);
+  opacity: 0;
+  animaiton: findIn 1s ease forward;
 }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 #Button:hover {
   background: #c26e00;
 }  
