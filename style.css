@@ -4,15 +4,15 @@
   font-size: 1.2rem;
   width: 80px;
   height: 80px;
-  postion: absolute;
+  position: absolute;
   left: 50%;
-  top: 10%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 #countertext {
   font-family: 'DynaPuff', cursive;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 10%;
   transform: translate(-50%, -50%);
 }
