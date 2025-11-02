@@ -4,7 +4,11 @@
   font-size: 1.2rem;
   width: 80px;
   height: 80px;
+  left: 50%
+  top: 10%
 }
 #countertext {
   font-family: 'DynaPuff', cursive;
+  left: 50%
+  top: 50%
 }
