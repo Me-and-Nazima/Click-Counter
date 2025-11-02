@@ -11,4 +11,4 @@ button2.addEventListener("click", () => {
   if (clicks >= 100) {
     level += 1;
   }
-}
+});
