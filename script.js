@@ -13,4 +13,5 @@ button2.addEventListener("click", () => {
     clicks -= 100;
   } else {
      alert("You need at least 100 clicks before you can upgrade the button");
+  }
 });
