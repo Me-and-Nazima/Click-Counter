@@ -11,6 +11,7 @@ button2.addEventListener("click", () => {
   if (clicks >= 100) {
     level += 1;
     clicks -= 100;
+    text.textContent = clicks;
   } else {
      alert("You need at least 100 clicks before you can upgrade the button");
   }
